@@ -6,7 +6,7 @@ describe("Environment Control", function(){
 			spyOn(Math, 'random').and.returnValue(50);
 		});
 
-		it("Works", function(){
+		it("returns correct url", function(){
 			expect(cacheBreak()).toBe("https://www.google.com/?5001");
 		});
 	});
