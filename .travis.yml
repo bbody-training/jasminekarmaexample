@@ -4,6 +4,8 @@ node_js:
 dist: trusty
 before_script:
 - npm install
+- sudo chown root /opt/google/chrome/chrome-sandbox
+- sudo chmod 4755 /opt/google/chrome/chrome-sandbox
 script:
 - npm run test
 cache:
