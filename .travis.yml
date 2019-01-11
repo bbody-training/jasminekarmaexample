@@ -7,9 +7,9 @@ before_script:
 - sudo chown root /opt/google/chrome/chrome-sandbox
 - sudo chmod 4755 /opt/google/chrome/chrome-sandbox
 script:
-- npm test
+- karma start --single-run
 cache:
   directories:
-  - node_modules
+    - node_modules
 env:
-- CXX=g++-4.8 CC=gcc-4.8
+- CXX=g++-4.8 CC=gcc-4.88
