@@ -4,6 +4,8 @@ An example of how to get started with Jasmine and Karma.
 
 ## Tutorial
 
+[![Youtube Video Tutorial](http://img.youtube.com/vi/BygnRr4vFl8/0.jpg)](http://www.youtube.com/watch?v=BygnRr4vFl8 "Video Title")
+
 Or can be [watched here](https://www.youtube.com/watch?v=BygnRr4vFl8).
 
 ## How to run tests
