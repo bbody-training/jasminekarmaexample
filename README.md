@@ -12,7 +12,9 @@ Or can be [watched here](https://www.youtube.com/watch?v=BygnRr4vFl8).
 
 ### Headless (Chrome & Firefox)
 `karma start karma.conf.js`
+
 or
+
 `npm test`
 
 ### Non-headless (Chrome, Firefox & Safari)
